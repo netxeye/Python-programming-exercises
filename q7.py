@@ -9,3 +9,8 @@ def two_dimension_array(x,y):
     return two_dimension
 
 print(two_dimension_array(3,5))
+
+def two_dimension_array_2(x,y):
+    return [[x_value * y_value for y_value in range(y)] for x_value in range(x)]
+
+print(two_dimension_array_2(3,5))
