@@ -18,6 +18,10 @@ class Question18Password(object):
 
     @password.setter
     def password(self, value):
+        self.password_verify(value)
+        self._password = value
+
+    def password_verify(self, value, debug=False):
         _vailable_upper = False
         _vailable_lower = False
         _vailable_number = False
@@ -53,7 +57,11 @@ class Question18Password(object):
             raise ValueError('Minimum length of password should be 6')
         if len(value) > 12:
             raise ValueError('Manimum length of password should be 12')
-        self._password = value
+        if (debug and _vailable_lower and _vailable_upper and
+           _vailable_number and _vailable_chacter and
+           len(value) >= 6 and len(value) <= 12):
+            print('working Passworkd is: ')
+            print(value)
 
 
 new_password1 = Question18Password()
@@ -65,3 +73,27 @@ try:
 except ValueError as error_message:
     print('Error:', error_message)
 print(new_password2.password)
+while True:
+    password_input2 = input('Eneter your Password sequence separated comma'
+                            + ' (exit by empty) :')
+    if password_input2:
+        for password in password_input2.split(','):
+            try:
+                new_password2.password = password
+            except ValueError as error_message:
+                print(password + ' is not working, because of ', error_message)
+    else:
+        break
+print(new_password2.password)
+new_password3 = Question18Password()
+while True:
+    password_input3 = input('Eneter your Password sequence separated comma'
+                            + ' (exit by empty)debug mode :')
+    if password_input3:
+        for password in password_input3.split(','):
+            try:
+                new_password3.password_verify(password, debug=True)
+            except ValueError as error_message:
+                print(password + ' is not working, because of ', error_message)
+    else:
+        break
