@@ -723,6 +723,7 @@ print "%s name is %s" % (Person.name, nico.name)
 #----------------------------------------#
 
 #----------------------------------------#
+Question 26
 Question:
 Define a function which can compute the sum of two numbers.
 
