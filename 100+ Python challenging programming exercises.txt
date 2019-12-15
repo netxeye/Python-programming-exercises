@@ -737,6 +737,7 @@ def SumFunction(number1, number2):
 print SumFunction(1,2)
 
 #----------------------------------------#
+Question 27
 Question:
 Define a function that can convert a integer into a string and print it in console.
 
@@ -752,22 +753,8 @@ printValue(3)
 	
 
 #----------------------------------------#
-Question:
-Define a function that can convert a integer into a string and print it in console.
-
-Hints:
-
-Use str() to convert a number to string.
-
-Solution
-def printValue(n):
-	print str(n)
-
-printValue(3)
-
-#----------------------------------------#
 2.10
-
+Question 28
 Question:
 Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.
 
