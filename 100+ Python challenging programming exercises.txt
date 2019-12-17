@@ -771,7 +771,7 @@ printValue("3","4") #7
 
 #----------------------------------------#
 2.10
-
+Question 29
 
 Question:
 Define a function that can accept two strings as input and concatenate them and then print it in console.
