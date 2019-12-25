@@ -1225,7 +1225,7 @@ American.printNationality()
 #----------------------------------------#
 
 7.2
-
+Question 50
 Question:
 Define a class named American and its subclass NewYorker. 
 
@@ -1253,7 +1253,7 @@ print aNewYorker
 
 
 7.2
-
+Question 51
 Question:
 Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. 
 
@@ -1281,7 +1281,7 @@ print aCircle.area()
 #----------------------------------------#
 
 7.2
-
+Question 52
 Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. 
 
 Hints:
@@ -1307,7 +1307,7 @@ print aRectangle.area()
 #----------------------------------------#
 
 7.2
-
+Question 53
 Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
 
 Hints:
