@@ -1333,16 +1333,8 @@ class Square(Shape):
 
 aSquare= Square(3)
 print aSquare.area()
-
-
-
-
-
-
-
-
 #----------------------------------------#
-
+Question 54
 
 Please raise a RuntimeError exception.
 
@@ -1355,8 +1347,8 @@ Solution:
 raise RuntimeError('something wrong')
 
 
-
 #----------------------------------------#
+Question 55
 Write a function to compute 5/0 and use try/except to catch the exceptions.
 
 Hints:
@@ -1379,6 +1371,7 @@ finally:
 
 
 #----------------------------------------#
+Question 56
 Define a custom exception class which takes a string message as attribute.
 
 Hints:
@@ -1401,6 +1394,7 @@ error = MyError("something wrong")
 
 #----------------------------------------#
 Question:
+Question 57
 
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
 
