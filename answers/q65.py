@@ -27,11 +27,12 @@ def question65_fibonacci_generator(n):
         raise ValueError('Exception: Function only accepts integer values')
     i, a, b = 0, 0, 1
     while i < n:
-        yield b
+        yield a
         a, b = b, a + b
         i += 1
 
 
 print(question65_fibonacci(10))
 print(question65_fibonacci_tail_recursion(5))
-print(list(question65_fibonacci_generator(7000))[-1:])
+print(list(question65_fibonacci_generator(8))[-1:])
+print(list(question65_fibonacci_generator(10)))
