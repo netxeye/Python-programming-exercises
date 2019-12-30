@@ -1825,7 +1825,7 @@ print bin_search(li,12)
 
 
 #----------------------------------------#
-Question 71
+Question 72
 Question:
 
 Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
