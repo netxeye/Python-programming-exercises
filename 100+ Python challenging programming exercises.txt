@@ -1422,6 +1422,7 @@ print r2.group(1)
 
 
 #----------------------------------------#
+Question 58
 Question:
 
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
@@ -1452,6 +1453,7 @@ print r2.group(2)
 
 
 #----------------------------------------#
+Question 59
 Question:
 
 Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
@@ -1478,6 +1480,7 @@ print re.findall("\d+",s)
 
 
 #----------------------------------------#
+Question 60
 Question:
 
 
@@ -1493,6 +1496,7 @@ unicodeString = u"hello world!"
 print unicodeString
 
 #----------------------------------------#
+Question 61
 Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
 Hints:
