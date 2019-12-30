@@ -3,5 +3,9 @@
 
 
 def question61_decode(string_value):
-    if not isinstance(string_value, str):
-        raise ValueError('Exception: Function only accepts String Value')
+    if not isinstance(string_value, bytes):
+        raise ValueError('Exception: Function only accepts bytes Value')
+    return string_value.decode('utf-8')
+
+
+print(question61_decode('hello world'.encode('ascii')))
