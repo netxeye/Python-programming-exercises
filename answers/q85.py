@@ -17,5 +17,12 @@ def question85SamplePop(lis):
     return lis
 
 
+def question85DeleteEven(lis):
+    if not isinstance(lis, list):
+        raise ValueError('Exception: Function only accepts list value')
+    return [x for x in lis if x % 2 != 0]
+
+
 print(question85Sample([x for x in range(25) if x % 3 == 0]))
 print(question85SamplePop([x for x in range(25) if x % 3 == 0]))
+print(question85DeleteEven([x for x in range(24)]))
